@@ -62,14 +62,7 @@ export default function Footer() {
                 <a
                   key={s}
                   href="#"
-                  className="label-sm transition-colors duration-300"
-                  style={{ color: "rgba(184,176,162,0.35)" }}
-                  onMouseEnter={(e) =>
-                    ((e.target as HTMLElement).style.color = "#C9A96E")
-                  }
-                  onMouseLeave={(e) =>
-                    ((e.target as HTMLElement).style.color = "rgba(184,176,162,0.35)")
-                  }
+                  className="label-sm transition-colors duration-300 text-prestige-warm/35 hover:text-gold"
                 >
                   {s}
                 </a>
@@ -91,15 +84,7 @@ export default function Footer() {
                   <li key={link}>
                     <Link
                       href="#"
-                      className="text-[0.75rem] transition-colors duration-300"
-                      style={{ color: "rgba(184,176,162,0.45)" }}
-                      onMouseEnter={(e) =>
-                        ((e.target as HTMLElement).style.color = "#C9A96E")
-                      }
-                      onMouseLeave={(e) =>
-                        ((e.target as HTMLElement).style.color =
-                          "rgba(184,176,162,0.45)")
-                      }
+                      className="text-[0.75rem] transition-colors duration-300 text-prestige-warm/45 hover:text-gold"
                     >
                       {link}
                     </Link>
